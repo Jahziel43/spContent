@@ -21,7 +21,7 @@ graph LR
   B --> C[Telegraf]
   C --> D[InfluxDB]
   D --> E[Grafana]
-  E --> F[Luz encendida si se detecta sonido]
+  E --> F[Luz encendida si se detecta sonido sobre el umbral]
  ```
 
 > En fases posteriores, se implementará la activación automática de luces cuando el nivel de sonido supere cierto umbral configurado, lo que simulará la detección de presencia humana.
