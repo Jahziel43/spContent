@@ -244,6 +244,9 @@ sudo systemctl enable grafana-server
 sudo systemctl status grafana-server
 ```
 
+**Visualización Gráfica del sonido en Grafana:**
+
+![Dashboard Sonido](https://raw.githubusercontent.com/Jahziel43/spContent/refs/heads/main/Dashboard%20Sonido.png)
 
 ---
 
