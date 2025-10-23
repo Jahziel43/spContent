@@ -13,12 +13,11 @@ Este proyecto tiene como propósito la **automatización del encendido de luces 
 
 El flujo de datos recorre un **ecosistema IoT completo**, donde el micro:bit obtiene la información y esta viaja hasta un **panel en Grafana**, pasando por varias capas de procesamiento intermedio:
 
-**Flujo general del sistema:**  
-Micro:bit → MQTT (Mosquitto) → Telegraf → InfluxDB → Grafana → (Futuro: control físico de luces)
+**Flujo general del sistema:**
 
 ```mermaid
 graph LR
-  A[Micro:bit con sensor de sonido] --> B[MQTT Broker]
+  A[Micro:bit con sensor de sonido] --> B["MQTT Broker (Mosquitto)"]
   B --> C[Telegraf]
   C --> D[InfluxDB]
   D --> E[Grafana]
