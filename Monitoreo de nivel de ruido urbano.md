@@ -246,7 +246,7 @@ sudo systemctl status grafana-server
 
 **Visualización Gráfica del nivel de ruido:**
 
-![Dashboard Sonido](https://raw.githubusercontent.com/Jahziel43/spContent/refs/heads/main/Dashboard%20Sonido.png)
+![Dashboard Sonido Urbano](https://raw.githubusercontent.com/Jahziel43/spContent/refs/heads/main/Dashboard%20Sonido%20Urbano.png)
 
 ---
 
